@@ -10,6 +10,16 @@ myFamily.addEventListener('mouseout', (e) => {
   myFamily.style.backgroundColor = "#3782BA"
 })
 
+const myBlog = document.querySelector("#blog");
+
+myBlog.addEventListener('mouseover', (e) => {
+  myBlog.style.backgroundColor = "#042779"
+})
+
+myBlog.addEventListener('mouseout', (e) => {
+  myBlog.style.backgroundColor = "#3782BA"
+})
+
 const newYorkCity = document.querySelector("img");
 
 newYorkCity.addEventListener('mouseover', (e) => {

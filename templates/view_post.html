@@ -1,0 +1,18 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>View Post</title>
+    <link rel="stylesheet" href="/static/css/view_post.css">
+  </head>
+  <body>
+    <a class=button href="http://localhost:8080/">Back to Home</a>
+    <a class=button id=family href="http://localhost:8080/family">Family</a>
+    <a class=button id=blog href="http://localhost:8080/blog">New Blog Post</a>
+    <h1>Blog Post!</h1>
+    <p> {{ date_and_time }}  </p>
+    <p>Title: {{ title_answer }}</p>
+    <p>Post: {{ content_answer }}</p>
+    <p>Author: {{ author_answer }}</p>
+  <script src="/static/js/view_post.js"></script>
+  </body>
+</html>
